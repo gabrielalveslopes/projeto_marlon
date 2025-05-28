@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdfdfd;
+  }
+  
+  header {
+    background-color: #ffc9c9;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo-img {
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  .cart {
+    position: relative;
+  }
+  
+  .cart-count {
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  .search-icon {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: #444;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.search-icon:hover {
+  color: #000;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 1rem;
+  }
+  
+  
+  .products {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product h2 {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .product p {
+    color: #666;
+  }
+  
+  .product button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .form-box {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-box h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .form-box input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-box button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
