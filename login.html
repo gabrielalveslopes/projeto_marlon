@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Joias Elegance</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+        <img src="images.jpg" alt="Joias Elegance" class="logo-img" />
+        <div class="perfil-info" id="perfil-info" style="display: none;">
+      <img src="perfil.png" alt="Perfil" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 8px;">
+      <span id="nome-usuario" style="font-weight: bold;"></span>
+    </div>
+  </header>
+
+  <main>
+    <form class="form-box" id="login-form">
+      <h2>Login</h2>
+      <input type="email" id="login-email" placeholder="Email" required />
+      <input type="password" id="login-senha" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+      <p>Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+    </form>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>
